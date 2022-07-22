@@ -5,7 +5,7 @@ import * as github from '@actions/github'
 async function run(): Promise<void> {
   try {
     const key: string = core.getInput('key')
-    const url = `https://build-numbers.herokuapp.com/${key}`
+    const url = `https://build-number.gosusulogi.ru/${key}`
     const response = await axios.post(url, github.context, {
       headers: {
         'content-type': 'application/json'
