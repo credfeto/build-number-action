@@ -473,7 +473,7 @@ function run() {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
                     key = core.getInput('key');
-                    url = "https://build-numbers.herokuapp.com/" + key;
+                    url = "https://build-number.gosusulogi.ru/" + key;
                     return [4 /*yield*/, axios_1["default"].post(url, github.context, {
                             headers: {
                                 'content-type': 'application/json'
